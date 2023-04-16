@@ -4,11 +4,11 @@
 
 {
 //0724jar驱动
-"spider":"https://agit.ai/lhacpt623/TVBOX1/raw/branch/master/w.jar",
+"spider":"https://github.com/jhzone/TVbox/blob/main/w.jar",
 
 
 //live地址https://agit.ai/lhacpt623/TVBOX1/src/branch/master/live.txt
-"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpL2xoYWNwdDYyMy9UVkJPWDEvcmF3L2JyYW5jaC9tYXN0ZXIvbGl2ZS50eHQ="]}]}],
+"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRodWIuY29tL2poem9uZS9UVmJveC9ibG9iL21haW4vbGl2ZS50eHQ="]}]}],
 
 //线路规则
 "sites":[
