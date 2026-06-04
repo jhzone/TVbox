@@ -1,5 +1,5 @@
 {
-  "warningText": "已移除失效 meow.jar/spider 插件，仅保留可直连资源源",
+  "warningText": "已移除失效 spider，并增加魔都 modujx 去广告规则",
   "sites": [
     {
       "key": "Wwzy",
@@ -261,6 +261,19 @@
     }
   ],
   "rules": [
+    {
+      "name": "modu_ad",
+      "hosts": [
+        "modujx11.com",
+        "play.modujx11.com",
+        "bf.modujx11.com",
+        "modujx",
+        "modu"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
+      ]
+    },
     {
       "name": "kk",
       "hosts": [
