@@ -1,7 +1,33 @@
 {
-  "warningText": "已移除失效 spider，并增加魔都 modujx 去广告规则",
+  "warningText": "已移除失效 meow.jar/spider 插件，仅保留可直连资源源",
   "sites": [
     {
+      "key": "lzzy",
+      "name": "量子┃资源",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playurl": "json:https://lziplayer.com/?url=",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "动漫",
+        "体育",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "喜剧片"
+      ]
+    },
+        {
       "key": "Wwzy",
       "name": "如意┃资源",
       "type": 1,
@@ -27,32 +53,6 @@
         "科幻片",
         "喜剧片",
         "战争片"
-      ]
-    },
-    {
-      "key": "lzzy",
-      "name": "量子┃资源",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playurl": "json:https://lziplayer.com/?url=",
-      "categories": [
-        "国产剧",
-        "国产动漫",
-        "泰国剧",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "动漫",
-        "体育",
-        "剧情片",
-        "动作片",
-        "爱情片",
-        "喜剧片"
       ]
     },
     {
@@ -261,19 +261,6 @@
     }
   ],
   "rules": [
-    {
-      "name": "modu_ad",
-      "hosts": [
-        "modujx11.com",
-        "play.modujx11.com",
-        "bf.modujx11.com",
-        "modujx",
-        "modu"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
-      ]
-    },
     {
       "name": "kk",
       "hosts": [
