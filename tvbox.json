@@ -1,7 +1,6 @@
 {
   "warningText": "接口免费获取，请勿贩卖接口！！！",
   "sites": [
-    {"key":"dbtj","name":"获取接口┃微信小程序搜【软件小哥哥】","type":3,"api":"csp_DouDou","searchable":0,"quickSearch":0,"filterable":0},
     {"key":"ttys","name":"天天┃影视","type":3,"api":"csp_TTian","searchable":1,"quickSearch":1,"changeable":1,"playerType":1,"ext":"baHR0cDovL3R0LnlzZHFqcy5jbg==","jar":"./lib/meow.jar;md5;CC57F10CB80E1BC9DF179A6129BD07B3"},
     {"key":"zjys","name":"追剧┃影视","type":3,"api":"csp_TTian","searchable":1,"quickSearch":1,"changeable":1,"playerType":1,"ext":"daHR0cDovL3YubGt1eXMuY24=","jar":"./lib/meow.jar;md5;CC57F10CB80E1BC9DF179A6129BD07B3"},
     {"key":"jpys","name":"剧评┃影视","type":3,"api":"csp_Jpys","searchable":1,"quickSearch":1,"changeable":1,"playerType":1,"ext":"caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ==","jar":"./lib/meow.jar;md5;CC57F10CB80E1BC9DF179A6129BD07B3"},
