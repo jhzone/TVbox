@@ -27,7 +27,7 @@
         "喜剧片"
       ]
     },
-        {
+    {
       "key": "Wwzy",
       "name": "如意┃资源",
       "type": 1,
@@ -197,11 +197,6 @@
       "name": "小哥哥解析④",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
-    },
-    {
-      "name": "小哥哥解析⑤",
-      "type": 0,
-      "url": "https://player.mrgaocloud.com/player/?url="
     }
   ],
   "lives": [
