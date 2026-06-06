@@ -1,0 +1,25 @@
+{
+  "spider": "",
+  "sites": [],
+  "lives": [
+    {
+      "name": "IPTV合集-TVBox格式",
+      "type": 0,
+      "playerType": 1,
+      "url": "./result_abc.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "IPTV合集-M3U原始源",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://iptv.mzone.dpdns.org/abc123",
+      "ua": "okhttp/3.15"
+    }
+  ],
+  "parses": [],
+  "flags": [],
+  "ijk": []
+}
